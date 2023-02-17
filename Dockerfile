@@ -3,7 +3,7 @@ FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND noninteractive
 
 ARG WINE_VERSION=winehq-staging
-ARG PYTHON_VERSION=3.9.13
+ARG PYTHON_VERSION=3.9.16
 ARG PYINSTALLER_VERSION=5.8
 
 # we need wine for this all to work, so we'll use the PPA
